@@ -1,1 +1,11 @@
 /* add your styles here */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vh 1vw;
+    justify-items: center;
+
+}
+.container div{
+    width: 48vw;
+}
