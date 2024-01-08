@@ -1,6 +1,6 @@
-import './App.css';
-import elephant from "./images/elephant.jpeg";
+import "./App.css";
 
+<<<<<<< HEAD
 const imageData = ()=>{
   let data = [
     {
@@ -34,7 +34,33 @@ function App() {
         ))}
       </div>
     </div>
+=======
+function App(dataImg) {
+  // code here
+
+  const Data = dataImg.dataImg;
+
+  return (
+    <>
+      <div className="container">
+        <div>
+          <img src={Data[0].img} alt="" id={Data[0].id} />
+        </div>
+        <div>
+          <img src={Data[1].img} alt="" id={Data[1].id} />
+        </div>
+        <div>
+          <img src={Data[2].img} alt="" id={Data[2].id} />
+        </div>
+        <div>
+          <img src={Data[3].img} alt="" id={Data[3].id} />
+        </div>
+      </div>
+    </>
+>>>>>>> 64a7cbd7d2311d87c583fcbe07a2a309abe8cd97
   );
 }
 
 export default App;
+
+
