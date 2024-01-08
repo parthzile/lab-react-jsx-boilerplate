@@ -3,11 +3,10 @@ import "./App.css"
 import elephant from "./images/elephant.jpeg";
 
 export default class AppClass extends Component{
-  
-  
-
+ 
   render(){
-    const data = this.imageData()
+    const data = this.props.dataImg;
+
     return (
       <div className="container">
         <div>

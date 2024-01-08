@@ -1,4 +1,6 @@
-const imageData = ()=>{
+import elephant from "../images/elephant.jpeg"
+
+const ImageData = ()=>{
     let data = [
       {
         id:1,
@@ -20,5 +22,6 @@ const imageData = ()=>{
     return data;
     }
 
+let Data  = ImageData()
     
-export default imageData
+export default Data;
